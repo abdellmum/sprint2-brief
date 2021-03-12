@@ -1,0 +1,14 @@
+
+# font :oleo script
+font-family: 'Oleo Script', cursive;
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+
+couleur:
+principaux: noire:#171820;
+            jaune:#fdc029;
+secondaires:           
+            marron:#df861d;
+            marron:#aa3d01;
+            gris  :#bcb6ae;
