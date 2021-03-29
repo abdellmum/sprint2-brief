@@ -1,0 +1,214 @@
+.footer__copyright {
+  text-align: center;
+  background-color: #fdc029;
+  height: 2rem; }
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  height: 3rem;
+  margin: auto;
+  position: relative;
+  background-color: #171820; }
+  .menu li {
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    padding: 0; }
+  .menu a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fdc029;
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+    z-index: 9; }
+
+li.slider {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #fdc029;
+  z-index: 8;
+  color: #171820;
+  transition: left .4s, background-color .4s; }
+
+.menu li:nth-child(1):hover ~ .slider,
+.menu li:nth-child(1):focus ~ .slider,
+.menu li:nth-child(1):active ~ .slider {
+  left: 0;
+  background-color: #fdc029; }
+
+.menu li:nth-child(2):hover ~ .slider,
+.menu li:nth-child(2):focus ~ .slider,
+.menu li:nth-child(2):active ~ .slider {
+  left: 25%;
+  background-color: #fdc029; }
+
+.menu li:nth-child(3):hover ~ .slider,
+.menu li:nth-child(3):focus ~ .slider,
+.menu li:nth-child(3):active ~ .slider {
+  left: 50%;
+  background-color: #fdc029; }
+
+.menu li:nth-child(4):hover ~ .slider,
+.menu li:nth-child(4):focus ~ .slider,
+.menu li:nth-child(4):active ~ .slider {
+  left: 75%;
+  background-color: #fdc029; }
+
+.logo {
+  width: 5rem;
+  height: 3rem; }
+
+.navbar {
+  display: flex;
+  flex-direction: row; }
+
+.logoo {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  background-color: #171820;
+  height: 3rem; }
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fdc029;
+  width: 100vw;
+  height: auto;
+  background-image: url(/dist/img/bckggg.jpg);
+  background-size: cover;
+  background-repeat: repeat; }
+  .slider__icons {
+    display: flex;
+    justify-content: space-around; }
+
+/* Keyframes  for navbar*/
+@keyframes fill {
+  0% {
+    width: 0%;
+    height: 1px; }
+  50% {
+    width: 100%;
+    height: 1px; }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: #2ECC71; } }
+
+/* Keyframes */
+@keyframes circle {
+  0% {
+    width: 1px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 1px;
+    z-index: -1;
+    background: #eee;
+    border-radius: 100%; }
+  100% {
+    background: #aaa;
+    height: 5000%;
+    width: 5000%;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0; } }
+
+.description {
+  width: 100%;
+  height: 20rem;
+  display: flex; }
+  .description__text {
+    width: 35%;
+    height: 20rem;
+    text-align: center; }
+    .description__text p {
+      width: 50%;
+      margin: auto  auto; }
+  .description__img {
+    background-image: url(/dist/img/authentic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 65%;
+    height: 20rem; }
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 5px;
+  background-color: #fdc029; }
+
+.descover {
+  background-color: #fdc029;
+  width: 100%;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+
+.div1 {
+  grid-area: 1 / 1 / 3 / 3;
+  background-color: aquamarine; }
+
+.div2 {
+  grid-area: 3 / 1 / 5 / 3;
+  background-color: #3d3d39; }
+
+.div3 {
+  grid-area: 1 / 3 / 3 / 5;
+  background-color: #406ff1; }
+
+.div4 {
+  grid-area: 3 / 3 / 5 / 5;
+  background-color: #a4a8a7; }
+
+.services {
+  width: 100%;
+  height: 15rem;
+  background-color: #f1de2d;
+  display: flex;
+  flex-wrap: wrap; }
+  .services__quality {
+    background-color: coral;
+    width: 33%;
+    height: 15rem; }
+  .services__fast {
+    background-color: #0cf351;
+    width: 33%;
+    height: 15rem; }
+  .services__mixt {
+    background-color: #3919ec;
+    width: 33%;
+    height: 15rem; }
+
+* {
+  font-family: "Oleo Script", cursive;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100vw;
+  overflow: hidden;
+  font-size: 62.5%;
+  height: auto; }
